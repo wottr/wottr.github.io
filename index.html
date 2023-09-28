@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Assignment1, Matt Deagle, 26 Sept. 2023-->
+<head>
+	<meta charset="UTF-8">
+	<title>🐈 The Cat Cafe</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<!--Needs one table, one form, text input field, dropdown menu,
+	 checkbox input, submit button-->
+<!--For CSS and styling, Consistent color scheme, styled table
+	Styled form elements, "HTML Validity"-->
+<body>
+	<header>
+		<h1>🐈 The Cat Cafe 🐈</h1>
+	</header>
+
+	<main>
+	<h2>Our Team</h2>
+	<div class="Cats">
+		<div class="CatGrid">
+			<img src="ScreamCheese.jpg" alt="Scream Cheese">
+		</div>
+
+		<div class="CatGrid">
+			<h3>Scream Cheese</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>	
+	
+	<div class="Cats">
+		<div class="CatGrid">
+			<h3>Almond</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+		<div class="CatGrid">
+			<img src="Almond.jpg" alt="Almond">
+		</div>
+	</div>
+
+	<div class="Cats">
+		<div class="CatGrid">
+			<img src="Blaze.jpg" alt="Blaze">
+		</div>
+
+		<div class="CatGrid">
+			<h3>Blaze</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+
+<!--This doesn't do anything yet-->
+	<h5>Leave a Comment</h5>
+	<div id="Comment">
+		<label for="freeform">Enter your comment here:</label><br>
+		<textarea id="freeform" name="freeform" rows="8" cols="50">
+		</textarea><br>
+
+		<div class="dropdown">
+			<label for="DropdownCat">Favorite team member: </label>
+			<select id="DropdownCat" name="dropdown">
+				<option value="ScreamCheese">Scream Cheese</option>
+				<option value="Almond">Almond</option>
+				<option value="Blaze">Blaze</option>
+			</select>
+		</div>
+	
+		<input type="checkbox" id="mailing" name="MailingList"	value="MailingYes">
+		<label for="MailingList">Sign up for news</label> <br>
+
+		<input type="submit" id="Submit" value="Submit">
+
+	</div>
+
+	<h6>Hours of Operation</h6>
+	<table>
+		<thead>
+			<tr>
+				<th></th>
+				<th>Open</th>
+				<th>Close</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>Monday</td>
+				<td>8:30</td>
+				<td>5:00</td>
+			</tr>
+			<tr>
+				<td>Tuesday</td>
+				<td>8:30</td>
+				<td>5:00</td>
+			</tr>
+			<tr>
+				<td>Wednesday</td>
+				<td>8:30</td>
+				<td>5:00</td>
+			</tr>
+			<tr>
+				<td>Thursday</td>
+				<td>8:30</td>
+				<td>5:00</td>
+			</tr>
+			<tr>
+				<td>Friday</td>
+				<td>8:30</td>
+				<td>5:00</td>
+			</tr>
+			<tr>
+				<td>Saturday</td>
+				<td>11:00</td>
+				<td>4:00</td>
+			</tr>
+			<tr>
+				<td>Sunday</td>
+				<td>CLOSED</td>
+				<td>CLOSED</td>
+			</tr>
+		</tbody>
+	</table>
+	</main>
+</body>
+</html>

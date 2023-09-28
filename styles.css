@@ -1,0 +1,52 @@
+body {background-color:#F7F5FB;}
+
+h1 {position:fixed !important;
+    padding:20px;
+    margin:0;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 99;
+    text-align:center;
+    background:#1abc9c;
+    font-size:30px;
+    font-family:"Lucida console";}
+
+main {padding: 100px 0}
+
+h2 {margin:1rem;
+    text-align:center;
+    font-family:"lucida console";}
+
+h3 {font-family:"lucida console";}
+
+.Cats {display:grid;
+    grid-template-columns:auto auto;
+    min-width:50%;
+    max-width: 95%;
+    place-items:center;
+    margin-left:auto;
+    margin-right:auto;
+    }
+
+.CatGrid {padding:50px;
+    text-align:left;}
+
+p {font-family:"Lucida console";}
+
+h5{font-size:20px;
+    font-family:"Lucida console";}
+
+h6{text-align:center;
+    font-size:20px;
+    font-family:"Lucida console";}
+
+table {width:50%; 
+    margin-left:auto; 
+    margin-right:auto;
+    border:1px solid; 
+    font-family:"Lucida console";
+    text-align:justify;
+    background-color:white;}
+
+th, td {border-bottom: 1px solid grey;}
